@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Prediction Result PDF</title>
+    <style>
+        body { font-family: 'Segoe UI Emoji', Arial, sans-serif; }
+        h1 { color: #263238; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #eee; padding: 8px; text-align: left; }
+        th { background: #ece9f7; }
+    </style>
+</head>
+<body>
+    <h1>{{ prediction_text }}</h1>
+    <p>{{ comment|safe }}</p>
+    <table>
+        <tr><th>Study Hours</th><td>{{ study_time }}</td></tr>
+        <tr><th>Attendance (%)</th><td>{{ attendance }}</td></tr>
+        <tr><th>Previous Score</th><td>{{ past_scores }}</td></tr>
+        <tr><th>Extra Classes</th><td>{{ extra_classes }}</td></tr>
+    </table>
+</body>
+</html>
