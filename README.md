@@ -11,6 +11,6 @@ A machine learning model that predicts student performance based on academic dat
 - Python
 - Pandas, NumPy
 - Scikit-learn
-- Matplotlib / Seaborn
-- Streamlit (if applicable)
+- Matplotlib
+- 
 
